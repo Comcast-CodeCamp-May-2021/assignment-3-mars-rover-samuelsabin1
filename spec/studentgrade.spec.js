@@ -14,7 +14,7 @@ describe("GRADING TEST: ", function() {
      for (let i = 0; i < studentSpecs.length; i++)
      {
        expect(studentSpecs[i].status).toEqual("passed");
-       expect(studentSpecs[i].passedExpectations.length).toBeGreaterThanOrEqual(1);
+       expect(studentSpecs[i].passedExpectations.length).toBeGreaterThanOrEqual(1); 
      }
    });
 
