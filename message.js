@@ -9,5 +9,5 @@ class Message {
 }
 
 
-console.log(Message);
+// console.log(Message);
 module.exports = Message;
